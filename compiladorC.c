@@ -1,12 +1,4 @@
-/*
-The Cradle - O Berço
 
-O código abaixo foi escrito por Felipo Soranz e é uma adaptação
-do código original em Pascal escrito por Jack W. Crenshaw em sua
-série "Let's Build a Compiler".
-
-Este código é de livre distribuição e uso.
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,7 +7,7 @@ Este código é de livre distribuição e uso.
 
 char look; /* O caracter lido "antecipadamente" (lookahead) */
 
-/* protótipos */
+/* protÃ³tipos */
 void init();
 void nextChar();
 void error(char *fmt, ...);
@@ -34,13 +26,13 @@ int main()
     return 0;
 }
 
-/* inicialização do compilador */
+/* inicializaÃ§Ã£o do compilador */
 void init()
 {
     nextChar();
 }
 
-/* lê próximo caracter da entrada */
+/* lÃª prÃ³ximo caracter da entrada */
 void nextChar()
 {
     look = getchar();
@@ -113,7 +105,7 @@ char getName()
     return name;
 }
 
-/* recebe um número inteiro */
+/* recebe um nÃºmero inteiro */
 char getNum()
 {
     char num;
@@ -126,7 +118,7 @@ char getNum()
     return num;
 }
 
-/* emite uma instrução seguida por uma nova linha */
+/* emite uma instruÃ§Ã£o seguida por uma nova linha */
 void emit(char *fmt, ...)
 {
     va_list args;
