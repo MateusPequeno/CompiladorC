@@ -1,0 +1,12 @@
+vx
+vy
+vz
+pm(a,b,c)
+vt
+b
+t=a
+x=t
+e
+Ptb
+m(z,z,z)
+e.
